@@ -1,9 +1,14 @@
-
-  <body>
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="style.css">
+    <title>
+youtube.dupe
+    </title>
+    <body>
     <header class="header">
       <div class="left-section">
-        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
-        <img class="youtube-logo" src="icons/youtube-logo.svg">
+        <div> <a href="https://www.youtube.com"> <img class="hamburger-menu" src="icons/hamburger-menu.svg"></div></a>
+        <div> <a href="https://www.youtube.com"><img class="youtube-logo" src="icons/youtube-logo.svg"></div></a>
       </div>
       <div class="middle-section">
         <input class="search-bar" type="text" placeholder="Search">
@@ -11,51 +16,66 @@
           <img class="search-icon" src="icons/search.svg">
           <div class="tooltip">Search</div>
         </button>
-        <!-- Put position absolute inside position relative -->
+      
         <button class="voice-search-button">
           <img class="voice-search-icon" src="icons/voice-search-icon.svg">
           <div class="tooltip">Search with your voice</div>
         </button>
       </div>
       <div class="right-section">
-        <div class="upload-container">
-          <img class="upload-icon" src="icons/upload.svg">
+         <a href="https://www.youtube.com">  <div class="upload-container"></a>
+          <div> <a href="https://www.youtube.com"><img class="upload-icon" src="icons/upload.svg"></div></a>
           <div class="tooltip">Create</div>
         </div>
-        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div> <a href="https://www.youtube.com"> <img class="youtube-apps-icon" src="icons/youtube-apps.svg"></div></a>
         <div class="notifications-icon-container">
-          <img class="notifications-icon" src="icons/notifications.svg">
+          <div> <a href="https://www.youtube.com"><img class="notifications-icon" src="icons/notifications.svg"></div></a>
           <div class="notifications-count">3</div>
         </div>
-        <img class="current-user-picture" src="channel-pictures/my-channel.jpeg">
+        <div> <a href="https://www.youtube.com"><img class="current-user-picture" src="icons/my-channel.jpeg"></div></a>
       </div>
     </header>
     
 
     <nav class="sidebar">
       <div class="sidebar-link">
-        <img src="icons/home.svg">
-        <div>Home</div>
+       <div> <a href="https://www.youtube.com"> <img src="icons/home.svg"></div></a>
+        <div>   <a href="https://www.youtube.com"> Home</div></a>
       </div>
+
+
+
       <div class="sidebar-link">
-        <img src="icons/explore.svg">
-        <div>Explore</div>
+       <div> <a href="https://www.youtube.com/results?search_query=youtube+explore"> <img src="icons/explore.svg"></div></a>
+        <div><a href="https://www.youtube.com/results?search_query=youtube+explore">Explore</div></a>
       </div>
+
+
+
       <div class="sidebar-link">
-        <img src="icons/subscriptions.svg">
-        <div>Subscriptions</div>
+        <div>  <a href="https://www.youtube.com"><img src="icons/subscriptions.svg"></div></a>
+        <div> <a href="https://www.youtube.com">Subscriptions</div></a>
       </div>
+
+
+
+
       <div class="sidebar-link">
-        <img src="icons/originals.svg">
-        <div>Originals</div>
+        <div>  <a href="https://www.youtube.com"> <img src="icons/originals.svg"></div></a>
+        <div>  <a href="https://www.youtube.com">Originals</div></a>
       </div>
+
+
+
       <div class="sidebar-link">
-        <img src="icons/youtube-music.svg">
-        <div>YouTube Music</div>
+        <div>  <a href="https://www.youtube.com/shorts/ZLuyMI5nTpk">  <img src="icons/youtube-music.svg"></div></a>
+        <div> <a href="https://www.youtube.com/shorts/ZLuyMI5nTpk">YouTube Music</div></a>
       </div>
+
+
       <div class="sidebar-link">
-        <img src="icons/library.svg">
-        <div>Library</div>
+       <div> <a href="https://www.youtube.com/feed/history"> <img src="icons/library.svg"></div></a>
+            <div> <a href="https://www.youtube.com/feed/history">Library</div></a>
     </div>
     </nav>
 
@@ -63,7 +83,7 @@
     <section class="vedio-grid">
       <div class="vedio-preview">
         <div class="thumbnail-row">
-          <img  class="thumbnails" src="icons/T1.jpeg">
+        <div>  <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">  <img  class="thumbnails" src="icons/t1.jpeg"></div></a>
         <div class="vedio-time">9:30</div>
       </div>
         <div class="vedio-info-grid">
@@ -71,11 +91,14 @@
     <img class="profile-picture" src="icons/picture1.jpeg">
        </div>
         <div class="vedio-info">
-          <p class="vedio-title">
+          <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+            <p class="vedio-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+          </a>
             
-            Talking Tech and AI with Google CEO Sundar Pichai!
-          </p>
-          
+      
+         
           <p class="vedio-author">
             Marquee Brownlee
           </p>
@@ -88,7 +111,7 @@
   
   <div class="vedio-preview">
     <div class="thumbnail-row">
-      <img  class="thumbnails" src="icons/T2.jpeg">
+    <div>  <a href="https://www.youtube.com/shorts/ZLuyMI5nTpk"><img  class="thumbnails" src="icons/T2.jpeg"></div></a>
       <div class="vedio-time">45:30</div>
     </div>
     <div class="vedio-info-grid">
@@ -96,9 +119,11 @@
   <img class="profile-picture" src="icons/picture2.jpeg">
    </div> 
    <div class="vedio-info">
+    <a href="https://www.youtube.com/shorts/ZLuyMI5nTpk">
       <p class="vedio-title">
         Try Not To Laugh Challenge #9
       </p>
+    </a>
       
       <p class="vedio-author">
         Markiplier
@@ -111,16 +136,20 @@
   </div>
   <div class="vedio-preview">
     <div class="thumbnail-row">
-      <img  class="thumbnails" src="icons/t3.jpeg">
+    <div>  <a href="https://www.youtube.com/watch?v=jGmGKrQBmr4"><img  class="thumbnails" src="icons/t3.jpeg"></div></a>
       <div class="vedio-time">29:30</div></div>
     <div class="vedio-info-grid">
       <div class="channel-picture">
   <img class="profile-picture" src="icons/picture4.jpeg">
    </div>
     <div class="vedio-info">
-      <p class="vedio-title">
-       How To Make $240 From Tiktok Free Course
-      </p>
+      <a href="https://www.youtube.com/watch?v=jGmGKrQBmr4">
+        <p class="vedio-title">
+          How To Make $240 From Tiktok Free Course
+        </p>
+      </a>
+
+
       
       <p class="vedio-author">
         John Doe
@@ -136,16 +165,20 @@
   
   <div class="vedio-preview">
   <div class="thumbnail-row">
-  <img  class="thumbnails" src="icons/t4.jpeg">
+   <div><a href="https://www.youtube.com/watch?v=aDF_ESN80r8"><img  class="thumbnails" src="icons/t4.jpeg"></div></a>
   <div class="vedio-time">30:30</div> </div>
   <div class="vedio-info-grid">
   <div class="channel-picture">
   <img class="profile-picture" src="icons/picture3.jpeg">
   </div> 
   <div class="vedio-info">
-  <p class="vedio-title">
-   Mr.Beast draw his life || Roasting For Fun
-  </p>
+    <a href="https://www.youtube.com/watch?v=aDF_ESN80r8">
+      <p class="vedio-title">
+        Mr.Beast draw his life || Roasting For Fun
+
+      </p>
+    </a>
+
   
   <p class="vedio-author">
     Its airaaa55
@@ -158,16 +191,21 @@
   </div>
   <div class="vedio-preview">
     <div class="thumbnail-row">
-      <img  class="thumbnails" src="icons/t5.jpeg">
+     <div> <a href="https://www.youtube.com/watch?v=eVSTVuwHp1E"> <img  class="thumbnails" src="icons/t5.jpeg"></div></a>
       <div class="vedio-time">9:30</div> </div>
     <div class="vedio-info-grid">
       <div class="channel-picture">
   <img class="profile-picture" src="icons/picture5.jpeg">
    </div>
     <div class="vedio-info">
-      <p class="vedio-title">
-        Living with Stranger For five days!
-      </p>
+ 
+        <a href="https://www.youtube.com/watch?v=eVSTVuwHp1E">
+          <p class="vedio-title">
+           
+    
+            Living with Stranger For five days!
+          </p>
+        </a>
       
       <p class="vedio-author">
        Dave Nick
@@ -183,16 +221,23 @@
   
   <div class="vedio-preview">
   <div class="thumbnail-row">
-  <img  class="thumbnails" src="icons/t6.jpeg">
+   <div> <a href="https://www.youtube.com/watch?v=thpFPwpRg18"><img  class="thumbnails" src="icons/t6.jpeg"></div></a>
   <div class="vedio-time">9:30</div></div>
   <div class="vedio-info-grid">
   <div class="channel-picture">
   <img class="profile-picture" src="icons/picture6.jpeg">
   </div> 
   <div class="vedio-info">
-  <p class="vedio-title">
-    Ready To Make 5 Minutes Recipes|Quick n Yum
-  </p>
+ 
+    <a href="https://www.youtube.com/watch?v=thpFPwpRg18">
+      <p class="vedio-title">
+       
+        Ready To Make 5 Minutes Recipes|Quick n Yum
+       
+      </p>
+    </a>
+  
+
   
   <p class="vedio-author">
     food by me
@@ -205,16 +250,22 @@
   </div>
   <div class="vedio-preview">
     <div class="thumbnail-row">
-      <img  class="thumbnails" src="icons/t8.jpeg">
+     <div> <a href="https://www.youtube.com/watch?v=CVw1nE2Frhc"><img  class="thumbnails" src="icons/t8.jpeg"></div></a>
       <div class="vedio-time">7:30</div></div>
     <div class="vedio-info-grid">
       <div class="channel-picture">
   <img class="profile-picture" src="icons/picture7.jpeg">
    </div>
     <div class="vedio-info">
-      <p class="vedio-title">
+      <a href="https://www.youtube.com/watch?v=CVw1nE2Frhc">
+        <p class="vedio-title">
+         
+    
       Can You Solve This Maths Problem?
-      </p>
+         
+        </p>
+      </a>
+      
       
       <p class="vedio-author">
         Maths Sir
@@ -228,16 +279,23 @@
   
   <div class="vedio-preview">
   <div class="thumbnail-row">
-  <img  class="thumbnails" src="icons/t9.jpeg">
+   <div> <a href="https://www.youtube.com/watch?v=jqAUu3OEWJI"> <img  class="thumbnails" src="icons/t9.jpeg"></div></a>
   <div class="vedio-time">4:10</div></div>
   <div class="vedio-info-grid">
   <div class="channel-picture">
   <img class="profile-picture" src="icons/picture8.jpeg">
   </div> 
   <div class="vedio-info">
-  <p class="vedio-title">
-    Day 05 to Learn Documentry And Filmmaking
-  </p>
+
+  
+    <a href="https://www.youtube.com/watch?v=jqAUu3OEWJI">
+      <p class="vedio-title">
+       
+        Day 05 to Learn Documentry And Filmmaking
+
+       
+      </p>
+    </a>
   
   <p class="vedio-author">
     Markiplier
@@ -250,16 +308,23 @@
   </div>
   <div class="vedio-preview">
     <div class="thumbnail-row">
-      <img  class="thumbnails" src="icons/t10.jpeg">
+      <div><a href="https://www.youtube.com/watch?v=1vNXQgaQSlE"><img  class="thumbnails" src="icons/t10.jpeg"></div></a>
       <div class="vedio-time">40:30</div> </div>
     <div class="vedio-info-grid">
       <div class="channel-picture">
   <img class="profile-picture" src="icons/picture9.png">
    </div>
     <div class="vedio-info">
-      <p class="vedio-title">
-        Housing-A Human right or big business?  
-      </p>
+   
+      <a href="https://www.youtube.com/watch?v=1vNXQgaQSlE">
+        <p class="vedio-title">
+        
+          Housing-A Human right or big business?  
+        </p>
+      </a>
+    
+     
+
       
       <p class="vedio-author">
         DW Documentry
@@ -273,16 +338,21 @@
   
   <div class="vedio-preview">
   <div class="thumbnail-row">
-  <img  class="thumbnails" src="icons/t11.jpeg">
+    <div><a href="https://www.youtube.com/watch?v=1vNXQgaQSlE"> <img  class="thumbnails" src="icons/t11.jpeg"></div></a>
   <div class="vedio-time">7:30</div></div>
   <div class="vedio-info-grid">
   <div class="channel-picture">
   <img class="profile-picture" src="icons/picture10.jpeg">
   </div> 
   <div class="vedio-info">
-  <p class="vedio-title">
+    <a href="https://www.youtube.com/watch?v=1vNXQgaQSlE">
+      <p class="vedio-title">
+      
     Easy steps to Edit your Documentry in a fun way
-  </p>
+ 
+      </p>
+    </a>
+
   
   <p class="vedio-author">
     the editor
@@ -295,17 +365,22 @@
   </div>
   <div class="vedio-preview">
     <div class="thumbnail-row">
-      <img  class="thumbnails" src="icons/tt.jpeg">
+      <div><a href="https://www.youtube.com/watch?v=SU_91-dPXPI"><img  class="thumbnails" src="icons/tt.jpeg"></div></a>
       <div class="vedio-time">15:40</div> </div>
     <div class="vedio-info-grid">
       <div class="channel-picture">
   <img class="profile-picture" src="icons/picture11.png">
    </div>
     <div class="vedio-info">
-      <p class="vedio-title">
-        Best prank of my life|he was shocked
-      </p>
+      <a href="https://www.youtube.com/watch?v=SU_91-dPXPI">
+        <p class="vedio-title">
+        
+
+      Best prank of my life|he was shocked
+        </p>
+      </a>
       
+
       <p class="vedio-author">
         the bunny girl
       </p>
@@ -318,16 +393,23 @@
   
   <div class="vedio-preview">
   <div class="thumbnail-row">
-  <img  class="thumbnails" src="icons/t12.jpeg">
+    <div><a href="https://www.youtube.com/watch?v=MiA-DsGumxQ"><img  class="thumbnails" src="icons/t12.jpeg"></div></a>
   <div class="vedio-time">6:00</div></div>
   <div class="vedio-info-grid">
   <div class="channel-picture">
   <img class="profile-picture" src="icons/picture12.jpeg">
   </div> 
   <div class="vedio-info">
-  <p class="vedio-title">
-    Edit 30 shorts in one hour and earn money
-  </p>
+    <a href="https://www.youtube.com/watch?v=MiA-DsGumxQ">
+      <p class="vedio-title">
+      
+        Edit 30 shorts in one hour and earn money
+   
+      </p>
+    </a>
+    
+ 
+
   
   <p class="vedio-author">
     weird people
